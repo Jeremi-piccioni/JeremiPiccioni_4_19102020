@@ -396,8 +396,6 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-
 }
 
 @media (min-width: 768px) {
@@ -589,7 +587,9 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    left:50%;
     transform: translateY(-50%);
+    transform: translateX(-50%);
     -webkit-transform: translateY(-50%);
 }
 
