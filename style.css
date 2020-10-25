@@ -273,11 +273,9 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-/* .text-center p {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-} */
+.text-center {
+    font-size: 13px;
+} 
 .voffset {
     margin-top: 30px;
 }
@@ -402,6 +400,8 @@ flex-wrap: wrap;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -692,10 +692,22 @@ h6,
 p,
 label,
 .btn,
-a {
+a 
+{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:black!important;
+}
+
+ul
+ {
+    font-family: "helvetica";
+    font-weight: 800;
+    color:black!important; 
+}
+
+li{
+    line-height: 40px;
 }
 
 .container {
@@ -774,6 +786,8 @@ h2 {
     line-height: 1.4em;
 }
 
+
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -801,7 +815,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -848,7 +862,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1113,9 +1127,7 @@ h4 {
         margin-left:20px;
     }
 
-    /* .text-center {
-        width:300px;
-    } */
+
 
 .center-elements{
     display: flex;
@@ -1169,4 +1181,40 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+h2{
+    color:#333333!important;
+    font-size: 13px!important;
+    font-family: "helvetica"!important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.list-title{
+    color:#333333!important;
+    font-size: 13px!important;
+    font-family: "helvetica"!important;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.social{
+    color:black!important;
+    font-size: 13px!important;
+    font-family: "helvetica"!important;
+    font-weight: 50; 
+}
+
+.social-text{
+    color:black!important;
+    font-size: 13px!important;
+    font-weight: 15; 
+}
+
+.text-span{
+    color:black!important;
+    font-size: 13px!important;
+    font-weight: 15; 
+
 }
