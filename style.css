@@ -1207,6 +1207,8 @@ h2{
 }
 
 .social-text{
+    display: flex;
+    flex-direction: column;
     color:black!important;
     font-size: 13px!important;
     font-weight: 15; 
