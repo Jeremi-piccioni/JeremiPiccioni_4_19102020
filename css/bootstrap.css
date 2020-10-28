@@ -1422,8 +1422,9 @@ a:focus {
     outline-offset: -2px
 }
 
+
 figure {
-    margin: 0
+    margin: 0;
 }
 
 img {
